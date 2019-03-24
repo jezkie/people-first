@@ -1,14 +1,17 @@
-.main {
-  min-height: 100%;
-  display: grid;
-  grid-template-rows: 1fr auto;
+@media (min-width: 700px) {
+  .main {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: 1fr auto;
+  }
+
+  .wrapper  {
+    grid-row: 1/2;
+    min-height: 100vh;
+  }
+
+  app-footer {
+    grid-row: 2/3;
+  }
 }
 
-.wrapper  {
-  grid-row: 1/2;
-  min-height: 100vh;
-}
-
-app-footer {
-  grid-row: 2/3;
-}
