@@ -1,0 +1,75 @@
+.main {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); 
+  grid-template-areas: 
+  'm m m m m'
+  'j j j j j'
+  '. c c c .'
+  'f f f f f';
+}
+
+.menu {
+  grid-area: m;
+  background: #000
+}
+
+.jumbotron {
+  grid-area: j;
+  
+  width: 100%;
+  text-align: center;
+  padding-bottom: 2rem;
+  background: #000;
+  color: #fff;
+}
+
+.content {
+  grid-area: c;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-column-gap: 3rem;
+  
+  width: 100%;
+  padding: 5rem 0 5rem 0;
+}
+
+.content .statement {
+  grid-column: 1/4;
+  justify-self: end;
+}
+
+.content img {
+  grid-column: 4/6;
+}
+
+.footer {
+  grid-area: f;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+
+  background: #000;
+  color: #fff;
+}
+
+.footer > div ul {
+  list-style-type: none;
+  margin: 0 !important;
+  padding: 0 !important;
+  
+}
+
+.footer > div:nth-child(1n) {
+  grid-column: 2/3;
+}
+
+.footer > div:nth-child(2n) {
+  grid-column: 3/4;
+}
+
+.footer > div:nth-child(3n) {
+  grid-column: 4/5;
+}
+
+.footer > div:nth-child(4n) {
+  grid-column: 5/6;
+}
