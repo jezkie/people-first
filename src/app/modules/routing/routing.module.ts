@@ -2,9 +2,10 @@ import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
 import { AppComponent } from '../../app.component';
+import { HomeComponent } from '../../component/home/home.component';
 
 const appRoutes = [
-  {path: '', component: AppComponent},
+  {path: '', component: HomeComponent},
 ];
 
 @NgModule({

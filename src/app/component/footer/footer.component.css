@@ -1,0 +1,30 @@
+.footer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 200px));
+  justify-content: center;
+
+  padding: 3rem 0 3rem 0;
+  background: #1b1c1d;
+  color: #fff;
+}
+
+.footer > div ul {
+  list-style-type: none;
+  margin: 0 !important;
+  padding: 0 !important;
+  color: rgba(255, 255, 255, 0.575);
+  font-size: 14px;
+}
+
+.footer > div ul > li {
+  display: list-item;
+  padding: .2rem 0;
+  line-height: 1rem;
+}
+
+@media (min-width: 817px) {
+  .footer > div:nth-child(n+2) {
+  border-left: 1px solid rgba(255, 255, 255, 0.575);
+  padding-left: 1rem;
+}
+}

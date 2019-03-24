@@ -6,10 +6,15 @@ import { RoutingModule } from './modules/routing/routing.module';
 
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
+import { HomeComponent } from './component/home/home.component';
+import { FooterComponent } from './component/footer/footer.component';
+import { AboutComponent } from './component/about/about.component';
+import { PeopleComponent } from './component/about/people/people.component';
+import { PhilosophyComponent } from './component/about/philosophy/philosophy.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, MaterialModule, RoutingModule ],
-  declarations: [ AppComponent, HelloComponent ],
+  declarations: [ AppComponent, HelloComponent, HomeComponent, FooterComponent, AboutComponent, PeopleComponent, PhilosophyComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
