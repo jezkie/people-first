@@ -3,7 +3,7 @@
   grid-template-columns: repeat(auto-fit, minmax(100px, 200px));
   justify-content: space-between;
 
-  padding: 3rem 0 3rem 0;
+  padding: 3rem 0 3rem 1rem;
   background: #1b1c1d;
   color: #fff;
   grid-row-gap: 1rem;
@@ -43,32 +43,9 @@
   padding-left: 1rem;
 }
 
-/* .footer > div:nth-child(n+2) {
-  border-left: 1px solid rgba(255,255,255,.1);
-  padding-left: 1rem;
-}
-
-@media (min-width: 1417px) {
-  .footer > div:nth-child(n+2) {
-    border-left: 1px solid rgba(255,255,255,.1);
-    padding-left: 1rem;
+@media(min-width: 700px) {
+  .footer {
+    padding: 3rem 0 3rem 0rem;
   }
 }
 
-@media(max-width: 1416px) and (min-width: 1217px){
-  .footer > div:nth-child(2) {
-    border-left: 1px solid rgba(255,255,255,.1);
-    padding-left: 1rem;
-  }
-  .footer > div:nth-child(3) {
-    border-left: 1px solid rgba(255,255,255,.1);
-    padding-left: 1rem;
-  }
-}
-
-@media(max-width: 1216px) and (min-width: 417px) {
-  .footer > div:nth-child(2n) {
-    border-left: 1px solid rgba(255,255,255,.1);
-    padding-left: 1rem;
-  }
-} */
