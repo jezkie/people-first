@@ -1,7 +1,7 @@
 .footer {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 200px));
-  justify-content: center;
+  justify-content: space-between;
 
   padding: 3rem 0 3rem 0;
   background: #1b1c1d;
@@ -23,14 +23,39 @@
   line-height: 1rem;
 }
 
-@media (min-width: 817px) {
+.footer > div:nth-child(1n) {
+  border-left: 3px solid #564AB4;
+  padding-left: 1rem;
+}
+
+.footer > div:nth-child(2n) {
+  border-left: 3px solid #B44A73;
+  padding-left: 1rem;
+}
+
+.footer > div:nth-child(3n) {
+  border-left: 3px solid #A8B44A;
+  padding-left: 1rem;
+}
+
+.footer > div:nth-child(4n) {
+  border-left: 3px solid #4AB48B;
+  padding-left: 1rem;
+}
+
+/* .footer > div:nth-child(n+2) {
+  border-left: 1px solid rgba(255,255,255,.1);
+  padding-left: 1rem;
+}
+
+@media (min-width: 1417px) {
   .footer > div:nth-child(n+2) {
     border-left: 1px solid rgba(255,255,255,.1);
     padding-left: 1rem;
   }
 }
 
-@media(max-width: 816px) and (min-width: 617px){
+@media(max-width: 1416px) and (min-width: 1217px){
   .footer > div:nth-child(2) {
     border-left: 1px solid rgba(255,255,255,.1);
     padding-left: 1rem;
@@ -41,9 +66,9 @@
   }
 }
 
-@media(max-width: 616px) and (min-width: 417px) {
+@media(max-width: 1216px) and (min-width: 417px) {
   .footer > div:nth-child(2n) {
     border-left: 1px solid rgba(255,255,255,.1);
     padding-left: 1rem;
   }
-}
+} */

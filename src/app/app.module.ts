@@ -11,10 +11,11 @@ import { FooterComponent } from './component/footer/footer.component';
 import { AboutComponent } from './component/about/about.component';
 import { PeopleComponent } from './component/about/people/people.component';
 import { PhilosophyComponent } from './component/about/philosophy/philosophy.component';
+import { HeaderComponent } from './component/header/header.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, MaterialModule, RoutingModule ],
-  declarations: [ AppComponent, HelloComponent, HomeComponent, FooterComponent, AboutComponent, PeopleComponent, PhilosophyComponent ],
+  declarations: [ AppComponent, HelloComponent, HomeComponent, FooterComponent, AboutComponent, PeopleComponent, PhilosophyComponent, HeaderComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
