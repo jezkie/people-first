@@ -1,6 +1,6 @@
 .content {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 600px));
+  grid-template-columns: repeat(auto-fit, minmax(100px, 500px));
   justify-content: center;
   grid-column-gap: 3rem;
   
@@ -11,4 +11,10 @@
 p {
   font-size: 1.3em;
   line-height: 1.4em;
+}
+
+.picture img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
