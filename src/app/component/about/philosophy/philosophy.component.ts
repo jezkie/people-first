@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-philosophy',
-  templateUrl: './philosophy.component.html',
+  template: `<p>Philosophy works!</p>`,
   styleUrls: ['./philosophy.component.css']
 })
 export class PhilosophyComponent implements OnInit {

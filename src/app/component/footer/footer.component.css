@@ -6,6 +6,7 @@
   padding: 3rem 0 3rem 0;
   background: #1b1c1d;
   color: #fff;
+  grid-row-gap: 1rem;
 }
 
 .footer > div ul {
@@ -22,9 +23,27 @@
   line-height: 1rem;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 817px) {
   .footer > div:nth-child(n+2) {
-    border-left: 1px solid rgba(255, 255, 255, 0.575);
+    border-left: 1px solid rgba(255,255,255,.1);
+    padding-left: 1rem;
+  }
+}
+
+@media(max-width: 816px) and (min-width: 617px){
+  .footer > div:nth-child(2) {
+    border-left: 1px solid rgba(255,255,255,.1);
+    padding-left: 1rem;
+  }
+  .footer > div:nth-child(3) {
+    border-left: 1px solid rgba(255,255,255,.1);
+    padding-left: 1rem;
+  }
+}
+
+@media(max-width: 616px) and (min-width: 417px) {
+  .footer > div:nth-child(2n) {
+    border-left: 1px solid rgba(255,255,255,.1);
     padding-left: 1rem;
   }
 }

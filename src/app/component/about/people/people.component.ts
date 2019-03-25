@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-people',
-  templateUrl: './people.component.html',
+  template: `<p>People works!</p>`,
   styleUrls: ['./people.component.css']
 })
 export class PeopleComponent implements OnInit {
