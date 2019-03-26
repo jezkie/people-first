@@ -1,11 +1,11 @@
 .content {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 500px));
+  grid-template-columns: repeat(auto-fit, minmax(100px, 600px));
   justify-content: center;
   grid-column-gap: 3rem;
   
   width: 100%;
-  padding: 5rem 0 5rem 0;
+  padding: 5rem 1.5rem 5rem 1.5rem;
 }
 
 p {
@@ -17,4 +17,10 @@ p {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+@media (min-width: 817px) {
+  .content {
+    padding: 5rem 0 5rem 0;
+  }
 }
